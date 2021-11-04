@@ -1,0 +1,85 @@
+body {
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.calCase{
+    display: flex;
+    flex-direction: column;
+    background-color:#e3d3a5bf;
+    padding: 16px 10px;
+}
+
+.brand
+{
+    font-style: italic;
+    color: blanchedalmond;
+    margin-left: 6px;
+}
+
+.calUpper{
+    display:flex;
+    flex-direction: column;
+    height:100px;
+    margin: 6px 3px 20px 3px;
+    align-items: center;
+}
+
+.upDisplay, .downDisplay{
+    flex :1;
+    width: 280px;
+    height:20px;
+    background-color:dimgrey;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;   
+    padding : 10px 20px;
+
+
+    font-size: 16px;
+    color:white;
+    /*font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif */
+}
+
+.downDisplay{
+
+    height:40px;
+    font-size: 36px;
+    font-weight: 500;
+    color:white;
+}
+
+
+
+.calLower{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bCell{
+    width:70px;
+    height:70px;
+    font-size: larger;
+    margin: 3px;
+
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 16px;
+    background-color: lightgrey;
+}
+
+.bCell-wide{
+    width:150px;
+}
+
+.bCell-color{
+
+    background-color: lightskyblue;
+}
